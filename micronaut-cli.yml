@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: validation.exception.metrics
+---
+testFramework: spock
+sourceLanguage: groovy

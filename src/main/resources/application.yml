@@ -1,0 +1,19 @@
+---
+micronaut:
+  application:
+    name: validation-exception-metrics
+
+---
+micronaut:
+  metrics:
+    enabled: true
+    export:
+      prometheus:
+        enabled: true
+        step: PT1M
+        descriptions: true
+
+endpoints:
+  prometheus:
+    enabled: true
+    sensitive: false
